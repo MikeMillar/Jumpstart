@@ -1,0 +1,27 @@
+/* Universal Rulesets */
+body {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+
+
+/* Navigation Rulesets */
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation ul {
+  flex-grow: 1;
+}
+
+.navigation ul li {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.active {
+  background-color: inherit;
+  color: #399bd1;
+}
